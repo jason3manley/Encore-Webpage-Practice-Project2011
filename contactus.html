@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<style type="text/css">
+form {
+   font-size: 12pt;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   color: blue;
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   width: 60%;
+}
+button {
+   font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+   font-weight: bold;
+   color: black;
+   background-color: #B7B7FF;
+}
+
+</style>
+</head>
+
+<body> <a href="index.html">Introduction</a> | <a href="Portfolio.html">Portfolio</a> | <a href="aboutme.html">About Me </a>| <a href="contactus.html">Contact Us</a>
+
+<p>Please fill the Quote Request form to get the price quote for the services required.</p>
+<form name="quote" 
+action="mailto:jmanley_310@yahoo.com" method="post">
+<p>Name:  <input type="text" id="Name" size="50"/></p>
+<p>Organization Name: <input type="text" id="Org_Name" size="50"/></p>
+<p><input type="radio" name="gender" value="Male" checked="checked"/>Male
+<input type="radio" name="gender" value="Female"/>Female</p>
+<p>Phone Number: <input type="text" id="Phone_No" size="15"/></p>
+<p>Address: <textarea id="Address" cols="30" rows="5" ></textarea></p>
+<p>Email id: <input type="text" id="Email_id" size="45"/></p>
+<p>Website: <input type="text" id="Website" size="45"/></p>
+<p>Country: <select id="country" size="1">
+<option>Choose a Country</option>
+<option>Argentina</option>
+<option>Australia</option>
+<option>Bolivia</option>
+<option>Brazil</option>
+<option>Canada</option>
+<option>France</option>
+<option>Japan</option>
+<option>Italy</option>
+<option>United Kingdom</option>
+</select></p>
+<p>Quote requested for: <select id="design" size="1">
+<option>Brochure</option>
+<option>Logo</option>
+<option>Website Design</option>
+<option>Business Cards</option>
+</select></p>
+<p>Comments: <textarea id="Comments" cols="45" rows="5"></textarea></p>
+<p>Have you requested for a quote earlier?</p>
+<p>Yes<input type="checkbox" id="Yes" value="yes"/></p>
+<button type="submit">Submit</button>
+&nbsp;<button type="reset">Reset</button>
+</form>
+
+</body>
+</html>

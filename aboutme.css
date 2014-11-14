@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+font-size: 24pt;
+color: #c3c;
+font-family: "Comic Sans MS", cursive; 
+}
+h2 {
+font-size: 16pt;
+color: #33c;
+font-family: "Ms Serif", "New York", serif;
+}
+body {
+font-size: 11pt;
+color: #639;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+background-color: #ccccff;
+}
